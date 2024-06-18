@@ -1,0 +1,7 @@
+:host {
+  --color-primary: #f44336;
+}
+
+.title {
+  color: var(--external-color-primary, var(--color-primary));
+}
